@@ -110,7 +110,7 @@ body {
      /* Sidebar */
 
 
-#vertical-menu  {
+/* #vertical-menu  {
   list-style-type: none;
   background-color: #eee;
   color: black;
@@ -129,7 +129,7 @@ background-color: #ccc;
 #vertical-menu .active {
   background-color: black;
   color: white;
-      }
+      } */
 /* The side navigation menu */
 /* .sidebar {
     margin: 0;
@@ -185,7 +185,7 @@ background-color: #ccc;
       text-align: center;
       float: none;
     }
-  } */ */ */
+  /* } *
 
 
 
@@ -224,4 +224,4 @@ background-color: #ccc;
         flex: 0 0 50%;
         max-width: 50%;
     }
- */ 
+ *
