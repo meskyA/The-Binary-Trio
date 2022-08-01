@@ -1,5 +1,30 @@
-#sportHeader {
-    text-align: center;
+/* #navbar { */
+  /* background: darkgray; */
+
+
+/* 
+ in custom CSS you need to add
+ /.bg-img { 
+  background-image: url(./assets/images/vector stadium.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+
+} */ 
+
+/* .container {
+  background-image: src = "./assets/images/vector stadium.jpg";
+}  */
+/* .header-image {
+  background-image: src("/Users/meskeremassefa/Projects/Project 1/The-Binary-Trio/assets/images/Football pitch with bright lights.jpg");
+  background
+} */
+.Image-Background {
+  background-image: url(../images/Football-pitch-with-bright-lights.jpg); 
+  background-size: cover;
+  background-repeat:  no-repeat;
 }
 #sportsTicker {
     text-align: center;
@@ -8,6 +33,7 @@
 #displayContainer, .box {
 background-color: rgb(205, 202, 202);
 border-style: solid;
+}
 .message-body {
   font-family: italics;
   font-weight: 600;
