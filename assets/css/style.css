@@ -1,0 +1,32 @@
+#sportHeader {
+    text-align: center;
+}
+#sportsTicker {
+    text-align: center;
+}
+
+#displayContainer, .box {
+background-color: rgb(205, 202, 202);
+border-style: solid;
+.message-body {
+  font-family: italics;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+  background: transparent;
+  text-align: center;
+}
+.message-body .navbar{
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  
+}
+.navbar-item {
+  background: white;
+  height: 20px;
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  font-size: 16px;
+}
