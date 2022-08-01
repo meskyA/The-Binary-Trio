@@ -1,0 +1,11 @@
+#sportHeader {
+    text-align: center;
+}
+#sportsTicker {
+    text-align: center;
+}
+
+#displayContainer, .box {
+background-color: rgb(205, 202, 202);
+border-style: solid;
+}
