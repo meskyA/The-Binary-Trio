@@ -1,0 +1,57 @@
+/* #navbar { */
+  /* background: darkgray; */
+
+
+/* 
+ in custom CSS you need to add
+ /.bg-img { 
+  background-image: url(./assets/images/vector stadium.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+
+} */ 
+
+/* .container {
+  background-image: src = "./assets/images/vector stadium.jpg";
+}  */
+/* .header-image {
+  background-image: src("/Users/meskeremassefa/Projects/Project 1/The-Binary-Trio/assets/images/Football pitch with bright lights.jpg");
+  background
+} */
+.Image-Background {
+  background-image: url('../assets/images/Football pitch with bright lights.jpg'); 
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+.header{
+  font-weight: 900;
+  font-size: 80px;
+  color: red;
+  font-family: italics;
+  text-align: center;
+}
+.message-body {
+  font-family: italics;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+  background: transparent;
+  text-align: center;
+}
+.message-body .navbar{
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  
+}
+.navbar-item {
+  background: white;
+  height: 20px;
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  font-size: 16px;
+}
