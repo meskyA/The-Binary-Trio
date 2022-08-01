@@ -22,7 +22,7 @@
   background
 } */
 .Image-Background {
-  background-image: url('../assets/images/Football pitch with bright lights.jpg'); 
+  background-image: url(../images/Football-pitch-with-bright-lights.jpg); 
   background-size: cover;
   background-repeat:  no-repeat;
 }
