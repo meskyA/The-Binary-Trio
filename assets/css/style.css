@@ -26,12 +26,13 @@
   background-size: cover;
   background-repeat:  no-repeat;
 }
-.header{
-  font-weight: 900;
-  font-size: 80px;
-  color: red;
-  font-family: italics;
-  text-align: center;
+#sportsTicker {
+    text-align: center;
+}
+
+#displayContainer, .box {
+background-color: rgb(205, 202, 202);
+border-style: solid;
 }
 .message-body {
   font-family: italics;
