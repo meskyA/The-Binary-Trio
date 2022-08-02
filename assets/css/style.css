@@ -37,7 +37,7 @@ body, nav, .navbar{
   background-repeat:  no-repeat;
 }
 
-#outerFootballContainer {
+#outerFootballContainer, #outerTennisContainer {
   background-image: url(../images/Football-pitch-with-bright-lights.jpg);
   background-size: cover;
   background-repeat:  no-repeat;
@@ -51,7 +51,7 @@ body, nav, .navbar{
 }
 
 /* DO NOT CONSOLIDATE THE CODE BELOW OR IT BREAKS THE TOGGLE SCRIPT */
-#goalsBlock {
+#goalsBlock, #goalsTblock {
   display: block;
   color: white;
 }
@@ -60,12 +60,12 @@ body, nav, .navbar{
   color: white;
 }
 
-#basicsBlock {
+#basicsBlock, #basicsTblock {
   display: none;
   color: white;
 }
 
-#scoringBlock {
+#scoringBlock, #scoringTblock {
   display: none;
   color: white;
 }
