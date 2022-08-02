@@ -55,3 +55,7 @@
   margin-bottom; 0;
   font-size: 16px;
 }
+.Image-Background .header .message-body{
+  position: sticky;
+  top: 0;
+}
