@@ -26,8 +26,30 @@
   background-size: cover;
   background-repeat:  no-repeat;
 }
+
+#outerContainer {
+  background-image: url(../images/Football-pitch-with-bright-lights.jpg);
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+
 #sportsTicker {
     text-align: center;
+    background-color: rgb(205, 202, 202);
+    border-style: solid;
+}
+
+#textBlock {
+  display: block;
+}
+
+#goalsBlock {
+  display: block;
+}
+
+#sportsHeader {
+  text-align: center;
+  color: white;
 }
 
 #displayContainer, .box {
