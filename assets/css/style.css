@@ -22,7 +22,7 @@
   background
 } */
 .Image-Background {
-  background-image: url('../assets/images/Football pitch with bright lights.jpg'); 
+  background-image: url(../images/Football-pitch-with-bright-lights.jpg); 
   background-size: cover;
   background-repeat:  no-repeat;
 }
@@ -33,6 +33,9 @@
   font-family: italics;
   text-align: center;
 }
+
+
+
 .message-body {
   font-family: italics;
   font-weight: 600;
@@ -45,14 +48,14 @@
   background-color: transparent;
   color: white;
   font-weight: 600;
-  
+
 }
 .navbar-item {
   background: white;
   height: 20px;
   position: relative;
   margin-top: 4rem;
-  margin-bottom; 0;
+  margin-bottom: 0;
   font-size: 16px;
 }
 .Image-Background .header .message-body{
