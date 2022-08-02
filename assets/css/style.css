@@ -51,11 +51,16 @@
   text-align: center;
   color: white;
 }
-
-#displayContainer, .box {
-background-color: rgb(205, 202, 202);
-border-style: solid;
+  .header{
+  font-weight: 900;
+  font-size: 80px;
+  color: red;
+  font-family: italics;
+  text-align: center;
 }
+
+
+
 .message-body {
   font-family: italics;
   font-weight: 600;
@@ -68,7 +73,7 @@ border-style: solid;
   background-color: transparent;
   color: white;
   font-weight: 600;
-  
+
 }
 .navbar-item {
   background: white;
