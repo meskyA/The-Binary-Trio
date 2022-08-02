@@ -61,6 +61,22 @@ $( "#footballButton" ).click(function() {
   $( "#scoringButton" ).click(function() {
 	$( "#scoringBlock" ).toggle();
   });
+
+  $( "#tennisButton" ).click(function() {
+	$( "#outerTennisContainer" ).toggle();
+  });
+
+  $( "#goalsTbutton" ).click(function() {
+	$( "#goalsTblock" ).toggle();
+  });
+
+  $( "#basicsTbutton" ).click(function() {
+	$( "#basicsTblock" ).toggle();
+  });
+
+  $( "#scoringTButton" ).click(function() {
+	$( "#scoringTblock" ).toggle();
+  });
 // var goalsBox = document.getElementById("goalsBlock")
 // var goalsbtn = document.getElementById("goalsRules")
 
