@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <title>Auto Referee</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
   <header>
     <div class="Image-Background">
@@ -48,10 +49,10 @@
                         <h2>Baseball</h2>
                         <p>⚾️</p>
                     </article>
-                    <article class="tile is-child notification is-info">
+                    <button id="footballButton" class="tile is-child notification is-info">
                         <h2>Football</h2>
                         <p>🏉</p>
-                    </article>
+                    </button>
                 </div>
             </div>
             <div class="tile">
@@ -85,22 +86,19 @@
 
 <!-- Jose Section Here -->
 <body>
-  <div id="outerContainer">
+  <div id="outerFootballContainer">
     <div class= "content" id="sportsHeader">
     <h1 class= "content has-text-white">American Football</h1>
     </div>
     <div class="container is-align-item-center" id="innerContainer">
     <div class="columns">
       <div class="column" id="sideBar">
-        <button id="goalsRules" class="button is-dark"> Goal </button>
-        <button class="button is-dark"> Magna esse </button>
-        <button class="button is-dark"> Magna esse </button>
-        <button class="button is-dark"> Magna esse </button>
-        <button class="button is-dark"> Magna esse </button>
-        <button class="button is-dark"> Magna esse </button>
+        <button id="goalsButton" class="button is-dark"> Goals </button>
+        <button id="basicsButton" class="button is-dark"> Basics </button>
+        <button id="scoringButton" class="button is-dark"> Scoring </button>
       </div>
     <div class="column is-11" class="box" id="displayContainer">
-      <div class="content is-justify-content-center" id="textBlock">
+      <div class="content is-justify-content-center">
             <div class="content is-justify-content-center" id="goalsBlock">
             <h2 id="goalsBlock"> Goal </h2>
         <p>The goal of American football is to do the following:</p>
@@ -110,6 +108,32 @@
             <li>Kicking the ball through the uprights set up in the end zone results in a field goal.</li>
             <li>The team that scored more points at the end of four quarters wins the game.</li>
         </ul>
+        </div>
+        <div id="basicsBlock">
+            <h2 class="content has-text-white">Basics</h2>
+            <p>These are the basics of American Football:</p>
+            <ul>
+                <li>Each team is  divided into two groups: Offense or Defense with 11 players on each side of the ball.</li>
+                <li>The game is divided into four quarters with a break after two quarters known as half-time. If the game is tied at the end of four quarters there is an overtime period equal to one quarter. The game ends when someone from either team scores a touchdown. If the offense scores a field goal in overtime, the opposing team is given one chance to score or they lose.</li>
+                <li>The Offense is tasked with advancing the ball downfield toward the end zone by running the ball or throwing the ball to a teammate. Play ends when the player holding the ball is tackled.</li>
+                <li>The Defense is tasked with stopping the offensive player from advancing by tackling them.</li>
+                <li>Downs are the most fundamental part of NFL play. The offense has four downs to advance the ball 10 yards or the opposing offense takes over automatically. Advancing 10 yards earns the reset the number of downs to one.</li>
+                <li>The Offense can also end their possession by either attempting a field goal or kicking the ball to the other team in what is known as Punting.</li>
+            </ul>
+            </div>
+            <div id="scoringBlock">
+            <h2 class="content has-text-white">Scoring</h2>
+            <ul>
+                <li>A touchdown in football is worth 6-points.</li>
+                <li>A field goal in football is worth 3-points.</li>
+                <li>After a touchdown is scored the offense is given the option to score more:</li>
+                <li>Kicking through the uprights results in 1-point.</li>
+                <li>Advancing into the end zone again results in 2-points.</li>
+                <li>There are two circumstances that the defense can score:</li>
+                <li>Tackling an offensive player in their own end zone which results in a safety and 2-points</li>
+                <li>A defensive player catching a ball thrown by an offensive player or picking up a ball dropped by an offensive player results in a turnover. If the defensive player runs it into the endzone the result is a touchdown.</li>
+            </ul>
+            </div>
         </div>
 </div>    
 </div>  

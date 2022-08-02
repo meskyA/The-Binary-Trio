@@ -30,16 +30,18 @@ body, nav, .navbar{
   font-family: "Amiko", sans-serif;
 }
 
+
 .Image-Background {
   background-image: url(../images/Football-pitch-with-bright-lights.jpg); 
   background-size: cover;
   background-repeat:  no-repeat;
 }
 
-#outerContainer {
+#outerFootballContainer {
   background-image: url(../images/Football-pitch-with-bright-lights.jpg);
   background-size: cover;
   background-repeat:  no-repeat;
+  display: none;
 }
 
 #sportsTicker {
@@ -48,13 +50,23 @@ body, nav, .navbar{
     border-style: solid;
 }
 
-#textBlock {
+/* DO NOT CONSOLIDATE THE CODE BELOW OR IT BREAKS THE TOGGLE SCRIPT */
+#goalsBlock {
   display: block;
   color: white;
 }
 
-#goalsBlock {
-  display: block;
+.containerHead {
+  color: white;
+}
+
+#basicsBlock {
+  display: none;
+  color: white;
+}
+
+#scoringBlock {
+  display: none;
   color: white;
 }
 
@@ -62,6 +74,8 @@ body, nav, .navbar{
   text-align: center;
   color: white;
 }
+/* DO NOT CONSOLIDATE THE CODE ABOVE OR IT BREAKS THE TOGGLE SCRIPT */
+
 .header{
   font-family: 'Bungee Shade', cursive;
   font-weight: 900;

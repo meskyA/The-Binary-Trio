@@ -45,16 +45,26 @@ fetch('https://api-football-v1.p.rapidapi.com/v3/teams?id=33', options)
 
 
 // This is the section that controls the buttons
-var goalsBox = document.getElementById("goalsBlock")
-var goalsbtn = document.getElementById("goalsRules")
 
-goalsbtn.addEventListener("click", function handleClick() {
-	if (goalsBox.style.display === "none") {
-		goalsBox.style.display = "block";
-	} else {
-		basicBox.style.display = "none";
-	}
-});
+$( "#footballButton" ).click(function() {
+	$( "#outerFootballContainer" ).toggle();
+  });
+
+  $( "#goalsButton" ).click(function() {
+	$( "#goalsBlock" ).toggle();
+  });
+
+  $( "#basicsButton" ).click(function() {
+	$( "#basicsBlock" ).toggle();
+  });
+
+  $( "#scoringButton" ).click(function() {
+	$( "#scoringBlock" ).toggle();
+  });
+// var goalsBox = document.getElementById("goalsBlock")
+// var goalsbtn = document.getElementById("goalsRules")
+
+
 
 // end section that controls Buttons
 
