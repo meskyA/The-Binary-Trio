@@ -35,7 +35,32 @@ body, nav, .navbar{
   background-size: cover;
   background-repeat:  no-repeat;
 }
-.header{
+
+#outerContainer {
+  background-image: url(../images/Football-pitch-with-bright-lights.jpg);
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+
+#sportsTicker {
+    text-align: center;
+    background-color: rgb(205, 202, 202);
+    border-style: solid;
+}
+
+#textBlock {
+  display: block;
+}
+
+#goalsBlock {
+  display: block;
+}
+
+#sportsHeader {
+  text-align: center;
+  color: white;
+}
+  .header{
   font-weight: 900;
   font-size: 80px;
   color: red;
@@ -64,4 +89,8 @@ body, nav, .navbar{
   margin-top: 4rem;
   margin-bottom: 0;
   font-size: 16px;
+}
+.Image-Background .header .message-body{
+  position: sticky;
+  top: 0;
 }
