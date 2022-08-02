@@ -50,10 +50,12 @@ body, nav, .navbar{
 
 #textBlock {
   display: block;
+  color: white;
 }
 
 #goalsBlock {
   display: block;
+  color: white;
 }
 
 #sportsHeader {

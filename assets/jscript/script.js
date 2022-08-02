@@ -3,9 +3,9 @@ var tickerBox = document.createElement("p");
 tickerBox.textContent = "Nostrud velit eu sunt labore aute velit dolore ea deserunt quis magna minim proident.";
 
 tickerComplete = document.getElementById("sportsTicker");
-tickerComplete.appendChild(tickerBox);
+tickerComplete.appendChild(tickerBox); //attaches text to the div
 // End Section that Controls Ticker
-
+// Make API call here
 // This is the section that controls the buttons
 var goalsBox = document.getElementById("goalsBlock")
 var goalsbtn = document.getElementById("goalsRules")
