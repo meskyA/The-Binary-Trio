@@ -60,16 +60,16 @@ body, nav, .navbar{
   text-align: center;
   color: white;
 }
-  .header{
+.header{
+  font-family: 'Bungee Shade', cursive;
   font-weight: 900;
   font-size: 80px;
   color: red;
-  font-family: italics;
   text-align: center;
 }
 
 .message-body {
-  font-family: italics;
+  font-family: "Amiko", italics;
   font-weight: 600;
   color: white;
   font-size: 25px;
