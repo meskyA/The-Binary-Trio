@@ -21,23 +21,57 @@
   background-image: src("/Users/meskeremassefa/Projects/Project 1/The-Binary-Trio/assets/images/Football pitch with bright lights.jpg");
   background
 } */
+
+header, h1, h2, h3, h4, h5, h6 {
+  font-family:"Bungee", sans-serif;
+}
+
+body, nav, .navbar{
+  font-family: "Amiko", sans-serif;
+}
+
 .Image-Background {
   background-image: url(../images/Football-pitch-with-bright-lights.jpg); 
   background-size: cover;
   background-repeat:  no-repeat;
 }
+
+#outerContainer {
+  background-image: url(../images/Football-pitch-with-bright-lights.jpg);
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+
+#sportsTicker {
+    text-align: center;
+    background-image: url(../images/Football-pitch-with-bright-lights.jpg);
+    border-style: solid;
+}
+
+#textBlock {
+  display: block;
+  color: white;
+}
+
+#goalsBlock {
+  display: block;
+  color: white;
+}
+
+#sportsHeader {
+  text-align: center;
+  color: white;
+}
 .header{
+  font-family: 'Bungee Shade', cursive;
   font-weight: 900;
   font-size: 80px;
   color: red;
-  font-family: italics;
   text-align: center;
 }
 
-
-
 .message-body {
-  font-family: italics;
+  font-family: "Amiko", italics;
   font-weight: 600;
   color: white;
   font-size: 25px;

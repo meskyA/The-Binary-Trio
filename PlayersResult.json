@@ -1,0 +1,1915 @@
+{
+    "get": "players",
+    "parameters": {
+        "team": "36",
+        "season": "2022"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+        "current": 1,
+        "total": 2
+    },
+    "response": [
+        {
+            "player": {
+                "id": 158,
+                "name": "Paulo Dino Gazzaniga",
+                "firstname": "Paulo Dino",
+                "lastname": "Gazzaniga",
+                "age": 30,
+                "birth": {
+                    "date": "1992-01-02",
+                    "place": "Murphy",
+                    "country": "Argentina"
+                },
+                "nationality": "Argentina",
+                "height": "196 cm",
+                "weight": "90 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/158.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 657,
+                "name": "K. Tete",
+                "firstname": "Kenny Joelle",
+                "lastname": "Tete",
+                "age": 27,
+                "birth": {
+                    "date": "1995-10-09",
+                    "place": "Amsterdam",
+                    "country": "Netherlands"
+                },
+                "nationality": "Netherlands",
+                "height": "180 cm",
+                "weight": "71 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/657.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 946,
+                "name": "K. Mbabu",
+                "firstname": "Melingo Kevin",
+                "lastname": "Mbabu",
+                "age": 27,
+                "birth": {
+                    "date": "1995-04-19",
+                    "place": null,
+                    "country": "Switzerland"
+                },
+                "nationality": "Switzerland",
+                "height": "184 cm",
+                "weight": "83 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/946.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 18803,
+                "name": "N. Chalobah",
+                "firstname": "Nathaniel",
+                "lastname": "Chalobah",
+                "age": 28,
+                "birth": {
+                    "date": "1994-12-12",
+                    "place": "Freetown",
+                    "country": "Sierra Leone"
+                },
+                "nationality": "England",
+                "height": "187 cm",
+                "weight": "80 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/18803.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19011,
+                "name": "Fabricio Mart\u00edn Agosto Ram\u00edrez",
+                "firstname": "Fabricio Mart\u00edn",
+                "lastname": "Agosto Ram\u00edrez",
+                "age": 35,
+                "birth": {
+                    "date": "1987-12-31",
+                    "place": "Vecindario",
+                    "country": "Spain"
+                },
+                "nationality": "Spain",
+                "height": "184 cm",
+                "weight": "79 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19011.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19015,
+                "name": "J. Bryan",
+                "firstname": "Joe",
+                "lastname": "Bryan",
+                "age": 29,
+                "birth": {
+                    "date": "1993-09-17",
+                    "place": "Bristol",
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": "170 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19015.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19020,
+                "name": "Alfie Mawson",
+                "firstname": "Alfie",
+                "lastname": "Mawson",
+                "age": 28,
+                "birth": {
+                    "date": "1994-01-19",
+                    "place": "London",
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": "188 cm",
+                "weight": "81 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19020.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19023,
+                "name": "T. Ream",
+                "firstname": "Timothy Michael",
+                "lastname": "Ream",
+                "age": 35,
+                "birth": {
+                    "date": "1987-10-05",
+                    "place": "St. Louis",
+                    "country": "USA"
+                },
+                "nationality": "USA",
+                "height": "185 cm",
+                "weight": "73 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19023.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19025,
+                "name": "T. Cairney",
+                "firstname": "Tom",
+                "lastname": "Cairney",
+                "age": 31,
+                "birth": {
+                    "date": "1991-01-20",
+                    "place": "Nottingham",
+                    "country": "England"
+                },
+                "nationality": "Scotland",
+                "height": "183 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19025.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19043,
+                "name": "T. Kongolo",
+                "firstname": "Terence",
+                "lastname": "Kongolo",
+                "age": 28,
+                "birth": {
+                    "date": "1994-02-14",
+                    "place": "Fribourg",
+                    "country": "Switzerland"
+                },
+                "nationality": "Netherlands",
+                "height": "188 cm",
+                "weight": "70 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19043.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19145,
+                "name": "T. Adarabioyo",
+                "firstname": "Oluwatosin",
+                "lastname": "Adarabioyo",
+                "age": 25,
+                "birth": {
+                    "date": "1997-09-24",
+                    "place": "Manchester",
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": "196 cm",
+                "weight": "80 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19145.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19373,
+                "name": "Michael Hector",
+                "firstname": "Michael",
+                "lastname": "Hector",
+                "age": 30,
+                "birth": {
+                    "date": "1992-07-19",
+                    "place": "London",
+                    "country": "England"
+                },
+                "nationality": "Jamaica",
+                "height": "193 cm",
+                "weight": "82 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19373.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19549,
+                "name": "A. Robinson",
+                "firstname": "Antonee",
+                "lastname": "Robinson",
+                "age": 25,
+                "birth": {
+                    "date": "1997-08-08",
+                    "place": "Milton Keynes",
+                    "country": "England"
+                },
+                "nationality": "USA",
+                "height": "176 cm",
+                "weight": "70 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19549.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19657,
+                "name": "Marek Rod\u00e1k",
+                "firstname": "Marek",
+                "lastname": "Rod\u00e1k",
+                "age": 26,
+                "birth": {
+                    "date": "1996-12-13",
+                    "place": "Ko\u0161ice",
+                    "country": "Slovakia"
+                },
+                "nationality": "Slovakia",
+                "height": "194 cm",
+                "weight": "81 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/19657.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 129706,
+                "name": "M. Fossey",
+                "firstname": "Marlon Joseph",
+                "lastname": "Fossey",
+                "age": 24,
+                "birth": {
+                    "date": "1998-09-09",
+                    "place": "Los Angeles",
+                    "country": "USA"
+                },
+                "nationality": "USA",
+                "height": "179 cm",
+                "weight": "76 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/129706.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 129707,
+                "name": "T. Francois",
+                "firstname": "Tyrese Jay",
+                "lastname": "Francois",
+                "age": 22,
+                "birth": {
+                    "date": "2000-07-16",
+                    "place": "Campbell Town",
+                    "country": "Australia"
+                },
+                "nationality": "Australia",
+                "height": "170 cm",
+                "weight": "60 kg",
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/129707.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 153417,
+                "name": "Sylvester Alexander Jasper",
+                "firstname": "Sylvester Alexander",
+                "lastname": "Jasper",
+                "age": 21,
+                "birth": {
+                    "date": "2001-09-13",
+                    "place": "London",
+                    "country": "England"
+                },
+                "nationality": "Bulgaria",
+                "height": "180 cm",
+                "weight": null,
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/153417.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 191971,
+                "name": "J. Stansfield",
+                "firstname": "Jay",
+                "lastname": "Stansfield",
+                "age": 20,
+                "birth": {
+                    "date": "2002-11-24",
+                    "place": null,
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/191971.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 278059,
+                "name": "A. Pajaziti",
+                "firstname": "Adrion",
+                "lastname": "Pajaziti",
+                "age": 20,
+                "birth": {
+                    "date": "2002-11-16",
+                    "place": null,
+                    "country": "England"
+                },
+                "nationality": "Kosovo",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/278059.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 278087,
+                "name": "O. O&apos;Neill",
+                "firstname": "Oliver John",
+                "lastname": "O'Neill",
+                "age": 19,
+                "birth": {
+                    "date": "2003-01-08",
+                    "place": null,
+                    "country": "Republic of Ireland"
+                },
+                "nationality": "Republic of Ireland",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https:\/\/media.api-sports.io\/football\/players\/278087.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 36,
+                        "name": "Fulham",
+                        "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+                    },
+                    "league": {
+                        "id": 39,
+                        "name": "Premier League",
+                        "country": "England",
+                        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
+                        "flag": "https:\/\/media.api-sports.io\/flags\/gb.svg",
+                        "season": 2022
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
+}
