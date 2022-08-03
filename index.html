@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link href="./assets/css/style.css" rel="stylesheet">
+   
     <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <title>Auto Referee</title>
@@ -31,7 +32,8 @@
           </nav> -->
       </div> 
     </div> 
-    <div class="columns is-justify-content-center has-text-white" class="box" id="sportsTicker"> 
+    <!-- <div class="columns is-justify-content-center has-text-white" class="box" id="sportsTicker"> -->
+      <select id="soccerteam" onchange="GetTeamMembers(this)"><option>Select team to show players</option></select> 
     </div>
 </header>
     <!-- This is Mesky's Part -->
@@ -70,7 +72,7 @@
             <div class="tile">
                 <div class="tile is-parent is is-vertical">
                     <article class="tile is-child notification is-info">
-                        <h2>Soccer</h2>
+                      <span><h2 style="display:inline">Soccer</h2></span><br>
                         <p>️⚽️</p>
                     </article>
                     <button id="golfButton" class="tile is-child notification is-info">
@@ -193,8 +195,27 @@
 </div>    
 </div>  
 </div>
+<table id="Players" border="1" style=" width: 100%;display: none;border-collapse: collapse; text-align: left; font-size: larger;  background-color: white; color: black;">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+    <th>Birth Date</th>
+    <th>Birth Place</th>
+    <th>Birth Country</th>
+    <th>Nationality</th>
+    <th>Height</th>
+    <th>Weight</th>
+    <th>Photo</th>
+  </tr>
+</table>   
 </div>
 </div>
+<<<<<<< HEAD
+<br/>    
+=======
 <!-- Golf Section Starts here -->
 <div id="outerGolfContainer">
     <div class= "content" id="sportsHeader">
@@ -248,9 +269,11 @@
 </div>
 </div>
 
+>>>>>>> 342c40738940d743d997e138e6200fcb8b08ffc8
 <!-- Jose Section Ends Here -->
+
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="./assets/jscript/script.js"></script>
 </body>
-</hgitml> 
+</html> 
