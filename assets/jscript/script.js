@@ -134,17 +134,57 @@ function CreateAndAppendColumnToRow(AttributeValue, Row) {
 
 
 // This is the section that controls the buttons
-var goalsBox = document.getElementById("goalsBlock")
-var goalsbtn = document.getElementById("goalsRules")
 
-goalsbtn.addEventListener("click", function handleClick() {
-	if (goalsBox.style.display === "none") {
-		goalsBox.style.display = "block";
-	} else {
-		basicBox.style.display = "none";
-	}
-});
+$( "#footballButton" ).click(function() {
+	$( "#outerFootballContainer" ).toggle();
+  });
 
+  $( "#goalsButton" ).click(function() {
+	$( "#goalsBlock" ).toggle();
+  });
+
+  $( "#basicsButton" ).click(function() {
+	$( "#basicsBlock" ).toggle();
+  });
+
+  $( "#scoringButton" ).click(function() {
+	$( "#scoringBlock" ).toggle();
+  });
+
+  $( "#tennisButton" ).click(function() {
+	$( "#outerTennisContainer" ).toggle();
+  });
+
+  $( "#goalsTbutton" ).click(function() {
+	$( "#goalsTblock" ).toggle();
+  });
+
+  $( "#basicsTbutton" ).click(function() {
+	$( "#basicsTblock" ).toggle();
+  });
+
+  $( "#scoringTButton" ).click(function() {
+	$( "#scoringTblock" ).toggle();
+  });
+
+  $( "#golfButton" ).click(function() {
+	$( "#outerGolfContainer" ).toggle();
+  });
+
+  $( "#goalsGbutton" ).click(function() {
+	$( "#goalsGblock" ).toggle();
+  });
+
+  $( "#basicsGbutton" ).click(function() {
+	$( "#basicsGblock" ).toggle();
+  });
+
+  $( "#scoringGbutton" ).click(function() {
+	$( "#scoringGblock" ).toggle();
+  });
+
+
+ 
 // end section that controls Buttons
 
 // Nav bar targeting containers of the different sports
