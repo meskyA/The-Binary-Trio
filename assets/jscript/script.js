@@ -77,11 +77,25 @@ $( "#footballButton" ).click(function() {
   $( "#scoringTButton" ).click(function() {
 	$( "#scoringTblock" ).toggle();
   });
-// var goalsBox = document.getElementById("goalsBlock")
-// var goalsbtn = document.getElementById("goalsRules")
+
+  $( "#golfButton" ).click(function() {
+	$( "#outerGolfContainer" ).toggle();
+  });
+
+  $( "#goalsGbutton" ).click(function() {
+	$( "#goalsGblock" ).toggle();
+  });
+
+  $( "#basicsGbutton" ).click(function() {
+	$( "#basicsGblock" ).toggle();
+  });
+
+  $( "#scoringGbutton" ).click(function() {
+	$( "#scoringGblock" ).toggle();
+  });
 
 
-
+ 
 // end section that controls Buttons
 
 // Nav bar targeting containers of the different sports
