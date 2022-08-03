@@ -125,6 +125,23 @@ function CreateAndAppendColumnToRow(AttributeValue, Row) {
 
 // This is the section that controls the buttons
 
+$( "#baseballButton" ).click(function() {
+	$( "#outerBaseballContainer" ).toggle();
+  });
+
+  $( "#goalsButton" ).click(function() {
+	$( "#goalsBlock" ).toggle();
+  });
+
+  $( "#basicsButton" ).click(function() {
+	$( "#basicsBlock" ).toggle();
+  });
+
+  $( "#scoringButton" ).click(function() {
+	$( "#scoringBlock" ).toggle();
+  });
+
+
 $( "#footballButton" ).click(function() {
 	$( "#outerFootballContainer" ).toggle();
   });
