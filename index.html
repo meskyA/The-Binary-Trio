@@ -13,6 +13,7 @@
     <title>Auto Referee</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
+<body>
   <header>
     <div class="Image-Background">
       <p class="header">Auto Referee</p>
@@ -23,10 +24,7 @@
       <select id="soccerteam" onchange="GetTeamMembers(this)"><option>Select team to show players</option></select> 
     </div>
 </header>
-    <!-- This is Mesky's Part -->
 
-
-<!-- Gallery Section Here Gina -->
 <br>
 <br>
 <div class="content container has-text-centered">
@@ -34,10 +32,10 @@
         <div class="tile is-horizontal is-12">
             <div class="tile">
                 <div class="tile is-parent is is-vertical">
-                    <!-- <article class="tile is-child notification is-info">
+                    <!-- <button id="baseballButton" class="tile is-child notification is-info">
                         <h2>Baseball</h2>
                         <p>⚾️</p>
-                    </article>-->
+                    </button>-->
                     <button id="footballButton" class="tile is-child notification is-info">
                         <h2>Football</h2>
                         <p>🏉</p>
@@ -73,8 +71,56 @@
 </div>
 
 
-<!-- Jose Section Here -->
-<body>
+<!-- Baseball Section -->
+<div id="outerBaseballContainer">
+    <div class= "content" id="sportsHeader">
+    <h1 class= "content has-text-white">Baseball</h1>
+    </div>
+    <div class="container is-align-item-center" id="innerContainer">
+    <div class="columns">
+      <div class="column" id="sideBar">
+        <button id="goalsButton" class="button is-dark"> Goals </button>
+        <button id="basicsButton" class="button is-dark"> Basics </button>
+        <button id="scoringButton" class="button is-dark"> Scoring </button>
+      </div>
+    <div class="column is-11" class="box" id="displayContainer">
+      <div class="content is-justify-content-center">
+            <div class="content is-justify-content-center" id="goalsBlock">
+            <h2 class="content has-text-white"> Goal </h2>
+        <p>The goal of Baseball is to do the following:</p>
+        <ul>
+            <li>Score more runs than the other team.</li>
+            <li>Run the four bases of the diamond to score a run.</li>
+            <li>Prevent the opposing team from scoring runs by getting them "out".</li>
+        </ul>
+        </div>
+        <div id="basicsBlock">
+            <h2 class="content has-text-white">Basics</h2>
+            <p>These are the basics of Baseball:</p>
+            <ul>
+                <li>There are two teams of at least nine players. These teams will either be batting or playing the field.</li>
+                <li>The game is divided into nine innings. Each inning is split into the "top of the inning" and the "bottom of the inning", giving both teams the chance to bat and defend during each half of the inning. Should the two teams be tied at the end of the nine innings, the teams will play extra innings until one of them wins. The ninth inning can be cut short if the home team is winning and that the visitors were unable to gain a lead in the first half of that final inning.</li>
+                <li>There are four bases: first, second, third, and home, and they make up a baseball diamond. There is also an outfield, split into left, center, and right field, that is positioned behind the baseball diamond.</li>
+                <li>The nine fielding positions are: pitcher, catcher, first baseman, second baseman, shortstop, third baseman, right field, center field, and left field. These all work together on defense to prevent the batting team from scoring runs.</li>
+                <li>The batting team will bat until they have three "outs". A batter can strikeout if they miss three good pitches from the pitcher. If a fielder catches a ball before it hits the ground, the batter that hit it will be considered out. If a runner is tagged with a ball without being on base, they are out. If a base runner passes another out of order, they are out. If a runner runs without tagging up (or touching the base they started on) after a hit ball has been caught, and a fielder tags the base with the ball in their hand, they are out. If a fielder tags a base where a runner is forced to run to before the runner gets there, the runner is out.</li>
+                <li>The Pitcher throws the ball into the batter's "strike zone", which is between the batter's armpits and knees in height, and covers homeplate in length and width. A pitcher is allowed three balls (outside pitches), and a batter must be able to get a hit without getting three strikes. A fourth ball pitched will give the batter a free walk to first base, and a third strike will cause the batter to be out. A strike is a good pitch that was not hit by the batter. A batter can also hit a foul, which is a ball hit too far to the left or right of the baseball diamond, and thus out of bounds. Fielders can catch a foul ball to get a batter out. If uncaught, batters can hit as many fouls as possible without getting out. </li>
+            </ul>
+            </div>
+            <div id="scoringBlock">
+            <h2 class="content has-text-white">Scoring</h2>
+            <ul>
+                <li>Instead of points, we talk about "runs" in baseball.</li>
+                <li>A field goal in football is worth 3-points.</li>
+                <li>After a touchdown is scored the offense is given the option to score more:</li>
+                <li>Kicking through the uprights results in 1-point.</li>
+                <li>Advancing into the end zone again results in 2-points.</li>
+                <li>There are two circumstances that the defense can score:</li>
+                <li>Tackling an offensive player in their own end zone which results in a safety and 2-points</li>
+                <li>A defensive player catching a ball thrown by an offensive player or picking up a ball dropped by an offensive player results in a turnover. If the defensive player runs it into the endzone the result is a touchdown.</li>
+            </ul>
+            </div>
+        </div>
+
   <div id="outerFootballContainer">
     <div class= "content" id="sportsHeader">
     <h1 class= "content has-text-white">American Football</h1>
