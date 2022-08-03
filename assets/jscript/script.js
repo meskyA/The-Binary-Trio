@@ -1,13 +1,3 @@
-// This is the Section That will control the ticker
-var tickerBox = document.createElement("p");
-tickerBox.textContent = "Nostrud velit eu sunt labore aute velit dolore ea deserunt quis magna minim proident.";
-
-//tickerComplete = document.getElementById("sportsTicker");
-//tickerComplete.appendChild(tickerBox); //attaches text to the div
-// End Section that Controls Ticker
-
-// Make API call here
-
 const options = {
 	method: 'GET',
 	headers: {
@@ -30,12 +20,12 @@ GetTeams();
 
 function PopulateOptionSet(response) {
 	var TeamOptionSet = document.getElementById("soccerteam");
-
+	console.log("response",response)
 	response.response.forEach(function (item) {
 		var opt = document.createElement("option");
 		opt.text = item.team.name;
 		opt.value = item.team.id;
-		TeamOptionSet.add(opt);
+		TeamOptionSet.append(opt);
 		//console.log('Team Name : '+item.team.name + ' | ' +'Team ID : '+item.team.id);
 
 	});
