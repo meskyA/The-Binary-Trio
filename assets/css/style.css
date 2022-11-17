@@ -1,28 +1,4 @@
-/* #navbar { */
-  /* background: darkgray; */
-
-
-/* 
- in custom CSS you need to add
- /.bg-img { 
-  background-image: url(./assets/images/vector stadium.jpg) ;
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  cover;
-  background-color: #999;
-
-} */ 
-
-/* .container {
-  background-image: src = "./assets/images/vector stadium.jpg";
-}  */
-/* .header-image {
-  background-image: src("/Users/meskeremassefa/Projects/Project 1/The-Binary-Trio/assets/images/Football pitch with bright lights.jpg");
-  background
-} */
-
-header, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family:"Bungee", sans-serif;
 }
 
@@ -33,11 +9,11 @@ body, nav, .navbar{
 
 .Image-Background {
   background-image: url(../images/Football-pitch-with-bright-lights.jpg); 
-  background-size: cover;
-  background-repeat:  no-repeat;
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
-#outerFootballContainer, #outerTennisContainer, #outerGolfContainer {
+#outerFootballContainer, #outerTennisContainer, #outerGolfContainer, #outerBaseballContainer {
   background-image: url(../images/Football-pitch-with-bright-lights.jpg);
   background-size: cover;
   background-repeat:  no-repeat;
@@ -51,7 +27,7 @@ body, nav, .navbar{
 }
 
 /* DO NOT CONSOLIDATE THE CODE BELOW OR IT BREAKS THE TOGGLE SCRIPT */
-#goalsBlock, #goalsTblock, #goalsGblock {
+#goalsBBlock,#goalsFBlock, #goalsTblock, #goalsGblock {
   display: block;
   color: white;
 }
@@ -60,17 +36,17 @@ body, nav, .navbar{
   color: white;
 }
 
-#basicsBlock, #basicsTblock, #basicsGblock {
+#basicsBBlock, #basicsFBlock, #basicsTblock, #basicsGblock {
   display: none;
   color: white;
 }
 
-#scoringBlock, #scoringTblock, #scoringGblock {
+#scoringBBlock,#scoringFBlock, #scoringTblock, #scoringGblock {
   display: none;
   color: white;
 }
 
-#sportsHeader {
+.sportsHeader {
   text-align: center;
   color: white;
 }
@@ -110,3 +86,81 @@ body, nav, .navbar{
   position: sticky;
   top: 0;
 }
+.resultTable{
+  display: none; 
+  text-align: left; 
+  font-size: larger;  
+  color: black;
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+#messagediv{
+  display: none; 
+  font-size: bold;
+  color: red;
+}
+.Headerspan{
+  display: inline-block;
+}
+#nameofteammembers{
+  font-weight: bold;
+  padding-left: 7px;
+  color:#3e8ed0;
+}
+.button{
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */button
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}

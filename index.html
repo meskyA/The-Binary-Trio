@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,303 +8,426 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link href="./assets/css/style.css" rel="stylesheet">
-   
+
     <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <title>Auto Referee</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body>
-  <header>
-    <div class="Image-Background">
-      <p class="header">Auto Referee</p>
-      <div class="message-body">
-        Welcome to Auto Referee, a website where you can look up the goals, basic rules, and scoring systems of select sports.
-      </div> 
-    </div> 
-      <select id="soccerteam" onchange="GetTeamMembers(this)"><option>Select team to show players</option></select> 
-    </div>
-</header>
 
-<br>
-<br>
-<div class="content container has-text-centered">
-    <div class="tile is-ancestor">
-        <div class="tile is-horizontal is-12">
-            <div class="tile">
-                <div class="tile is-parent is is-vertical">
-                    <!-- <button id="baseballButton" class="tile is-child notification is-info">
-                        <h2>Baseball</h2>
-                        <p>⚾️</p>
-                    </button>-->
-                    <button id="footballButton" class="tile is-child notification is-info">
-                        <h2>Football</h2>
-                        <p>🏉</p>
-                    </button>
-                </div>
+<body>
+    <header>
+        <div class="Image-Background">
+            <p class="header">Auto Referee</p>
+            <div class="message-body">
+                Welcome to Auto Referee, a website where you can look up the goals, basic rules, and scoring systems of
+                select sports.
             </div>
-            <div class="tile">
-                <div class="tile is-parent is is-vertical">
-                    <!--<article class="tile is-child notification is-info">
+        </div>
+        <!--select id="soccerteam" onchange="GetTeamMembers(this)"><option>Select team to show players</option></select-->
+    </header>
+
+    <br>
+    <div class="content container has-text-centered">
+        <div class="tile is-ancestor">
+            <div class="tile is-horizontal is-12">
+                <div class="tile">
+                    <div class="tile is-parent is is-vertical">
+                        <!--article class="tile is-child notification is-info">
                         <h2>Basketball</h2>
                         <p>🏀</p>
-                    </article>-->
-                    <button id="tennisButton" class="tile is-child notification is-info">
-                        <h2>Tennis</h2>
-                        <p>🎾</p>
-                    </button>
+                    </article-->
+                        <button id="footballButton" class="tile is-child notification is-info">
+                            <h2>Football</h2>
+                            <p>🏉</p>
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="tile">
-                <div class="tile is-parent is is-vertical">
-                    <!--<article class="tile is-child notification is-info">
+                <div class="tile">
+                    <div class="tile is-parent is is-vertical">
+                        <button id="baseballButton" class="tile is-child notification is-info">
+                            <h2>Baseball</h2>
+                            <p>⚾️</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile is-parent is is-vertical">
+
+                        <button id="tennisButton" class="tile is-child notification is-info">
+                            <h2>Tennis</h2>
+                            <p>🎾</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile is-parent is is-vertical">
+                        <!--article class="tile is-child notification is-info">
                       <span><h2 style="display:inline">Soccer</h2></span><br>
                         <p>️⚽️</p>
-                    </article>-->
-                    <button id="golfButton" class="tile is-child notification is-info">
-                        <h2>Golf</h2>
-                        <p>️⛳️</p>
-                    </button>
+                    </article-->
+                        <button id="golfButton" class="tile is-child notification is-info">
+                            <h2>Golf</h2>
+                            <p>️⛳️</p>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-
-<!-- Baseball Section -->
-<div id="outerBaseballContainer">
-    <div class= "content" id="sportsHeader">
-    <h1 class= "content has-text-white">Baseball</h1>
+    <div class="tab">
+        <button class="tablinks" id="tab_Game" onclick="openTab('tab_Game')">Game Info</button>
+        <button class="tablinks" id="tab_Team" onclick="openTab('tab_Team')">Team Info</button>
     </div>
-    <div class="container is-align-item-center" id="innerContainer">
-    <div class="columns">
-      <div class="column" id="sideBar">
-        <button id="goalsButton" class="button is-dark"> Goals </button>
-        <button id="basicsButton" class="button is-dark"> Basics </button>
-        <button id="scoringButton" class="button is-dark"> Scoring </button>
-      </div>
-    <div class="column is-11" class="box" id="displayContainer">
-      <div class="content is-justify-content-center">
-            <div class="content is-justify-content-center" id="goalsBlock">
-            <h2 class="content has-text-white"> Goal </h2>
-        <p>The goal of Baseball is to do the following:</p>
-        <ul>
-            <li>Score more runs than the other team.</li>
-            <li>Run the four bases of the diamond to score a run.</li>
-            <li>Prevent the opposing team from scoring runs by getting them "out".</li>
-        </ul>
+    <div id="Sector_Team" class="tabcontent">
+        <div class="content">
+            <label for="Schedules">American Football Schedules:</label>
+            <input type="date" id="SchedulesDate" name="Schedulesday">
+            <div id="messagediv"></div>
         </div>
-        <div id="basicsBlock">
-            <h2 class="content has-text-white">Basics</h2>
-            <p>These are the basics of Baseball:</p>
-            <ul>
-                <li>There are two teams of at least nine players. These teams will either be batting or playing the field.</li>
-                <li>The game is divided into nine innings. Each inning is split into the "top of the inning" and the "bottom of the inning", giving both teams the chance to bat and defend during each half of the inning. Should the two teams be tied at the end of the nine innings, the teams will play extra innings until one of them wins. The ninth inning can be cut short if the home team is winning and that the visitors were unable to gain a lead in the first half of that final inning.</li>
-                <li>There are four bases: first, second, third, and home, and they make up a baseball diamond. There is also an outfield, split into left, center, and right field, that is positioned behind the baseball diamond.</li>
-                <li>The nine fielding positions are: pitcher, catcher, first baseman, second baseman, shortstop, third baseman, right field, center field, and left field. These all work together on defense to prevent the batting team from scoring runs.</li>
-                <li>The batting team will bat until they have three "outs". A batter can strikeout if they miss three good pitches from the pitcher. If a fielder catches a ball before it hits the ground, the batter that hit it will be considered out. If a runner is tagged with a ball without being on base, they are out. If a base runner passes another out of order, they are out. If a runner runs without tagging up (or touching the base they started on) after a hit ball has been caught, and a fielder tags the base with the ball in their hand, they are out. If a fielder tags a base where a runner is forced to run to before the runner gets there, the runner is out.</li>
-                <li>The Pitcher throws the ball into the batter's "strike zone", which is between the batter's armpits and knees in height, and covers homeplate in length and width. A pitcher is allowed three balls (outside pitches), and a batter must be able to get a hit without getting three strikes. A fourth ball pitched will give the batter a free walk to first base, and a third strike will cause the batter to be out. A strike is a good pitch that was not hit by the batter. A batter can also hit a foul, which is a ball hit too far to the left or right of the baseball diamond, and thus out of bounds. Fielders can catch a foul ball to get a batter out. If uncaught, batters can hit as many fouls as possible without getting out. </li>
-            </ul>
-            </div>
-            <div id="scoringBlock">
-            <h2 class="content has-text-white">Scoring</h2>
-            <ul>
-                <li>Instead of points, we talk about "runs" in baseball.</li>
-                <li>A field goal in football is worth 3-points.</li>
-                <li>After a touchdown is scored the offense is given the option to score more:</li>
-                <li>Kicking through the uprights results in 1-point.</li>
-                <li>Advancing into the end zone again results in 2-points.</li>
-                <li>There are two circumstances that the defense can score:</li>
-                <li>Tackling an offensive player in their own end zone which results in a safety and 2-points</li>
-                <li>A defensive player catching a ball thrown by an offensive player or picking up a ball dropped by an offensive player results in a turnover. If the defensive player runs it into the endzone the result is a touchdown.</li>
-            </ul>
+        <div class="container is-align-item-center">
+            <div class="columns">
+                <div class="column">
+                    <table id="TeamSchedules" class="resultTable">
+                        <tr>
+                            <th colspan="2"><h2>Scheduled Games</h2></th>
+                    </tr>
+                        <tr>
+                            <th>Home Team</th>
+                            <th>Away Team</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="column is-11">
+                    <table id="Playsers" class="resultTable">
+                        <tr>
+                            <th colspan="7"><span class="Headerspan"><h2>Team Members of </h2></span><span class="Headerspan" id="nameofteammembers"></span></th>
+                    </tr>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Short Name</th>
+                            <th>Birth Date</th>
+                            <th>Shirt Number</th>
+                            <th>Height</th>
+                            <th>Country</th>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-
-  <div id="outerFootballContainer">
-    <div class= "content" id="sportsHeader">
-    <h1 class= "content has-text-white">American Football</h1>
     </div>
-    <div class="container is-align-item-center" id="innerContainer">
-    <div class="columns">
-      <div class="column" id="sideBar">
-        <button id="goalsButton" class="button is-dark"> Goals </button>
-        <button id="basicsButton" class="button is-dark"> Basics </button>
-        <button id="scoringButton" class="button is-dark"> Scoring </button>
-      </div>
-    <div class="column is-11" class="box" id="displayContainer">
-      <div class="content is-justify-content-center">
-            <div class="content is-justify-content-center" id="goalsBlock">
-            <h2 class="content has-text-white"> Goal </h2>
-        <p>The goal of American football is to do the following:</p>
-        <ul>
-            <li>Move the ball towards the opposition's end zone and ultimately into their end zone which results in a touchdown.</li>
-            <li>Advancing the ball into the end zone by running or throwing the ball downfield results in a touchdown.</li>
-            <li>Kicking the ball through the uprights set up in the end zone results in a field goal.</li>
-            <li>The team that scored more points at the end of four quarters wins the game.</li>
-        </ul>
-        </div>
-        <div id="basicsBlock">
-            <h2 class="content has-text-white">Basics</h2>
-            <p>These are the basics of American Football:</p>
-            <ul>
-                <li>Each team is  divided into two groups: Offense or Defense with 11 players on each side of the ball.</li>
-                <li>The game is divided into four quarters with a break after two quarters known as half-time. If the game is tied at the end of four quarters there is an overtime period equal to one quarter. The game ends when someone from either team scores a touchdown. If the offense scores a field goal in overtime, the opposing team is given one chance to score or they lose.</li>
-                <li>The Offense is tasked with advancing the ball downfield toward the end zone by running the ball or throwing the ball to a teammate. Play ends when the player holding the ball is tackled.</li>
-                <li>The Defense is tasked with stopping the offensive player from advancing by tackling them.</li>
-                <li>Downs are the most fundamental part of NFL play. The offense has four downs to advance the ball 10 yards or the opposing offense takes over automatically. Advancing 10 yards earns the reset the number of downs to one.</li>
-                <li>The Offense can also end their possession by either attempting a field goal or kicking the ball to the other team in what is known as Punting.</li>
-            </ul>
+    <div id="Sector_Game" class="tabcontent">
+        <!-- Baseball Section -->
+        <div id="outerBaseballContainer" class="descriptions">
+            <div class="content sportsHeader">
+                <h1 class="content has-text-white">Baseball</h1>
             </div>
-            <div id="scoringBlock">
-            <h2 class="content has-text-white">Scoring</h2>
-            <ul>
-                <li>A touchdown in football is worth 6-points.</li>
-                <li>A field goal in football is worth 3-points.</li>
-                <li>After a touchdown is scored the offense is given the option to score more:</li>
-                <li>Kicking through the uprights results in 1-point.</li>
-                <li>Advancing into the end zone again results in 2-points.</li>
-                <li>There are two circumstances that the defense can score:</li>
-                <li>Tackling an offensive player in their own end zone which results in a safety and 2-points</li>
-                <li>A defensive player catching a ball thrown by an offensive player or picking up a ball dropped by an offensive player results in a turnover. If the defensive player runs it into the endzone the result is a touchdown.</li>
-            </ul>
+            <div class="container is-align-item-center" id="B_innerContainer">
+                <div class="columns">
+                    <div class="column">
+                        <button id="goalsBButton" class="button is-dark"> Goals </button>
+                        <button id="basicsBButton" class="button is-dark"> Basics </button>
+                        <button id="scoringBButton" class="button is-dark"> Scoring </button>
+                    </div>
+                    <div class="column is-11" id="B_displayContainer">
+                        <div class="content is-justify-content-center">
+                            <div id="goalsBBlock" class="B_rule">
+                                <h2 class="content has-text-white"> Goal </h2>
+                                <p>The goal of Baseball is to do the following:</p>
+                                <ul>
+                                    <li>Score more runs than the other team.</li>
+                                    <li>Run the four bases of the diamond to score a run.</li>
+                                    <li>Prevent the opposing team from scoring runs by getting them "out".</li>
+                                </ul>
+                            </div>
+                            <div id="basicsBBlock" class="B_rule">
+                                <h2 class="content has-text-white">Basics</h2>
+                                <p>These are the basics of Baseball:</p>
+                                <ul>
+                                    <li>There are two teams of at least nine players. These teams will either be batting
+                                        or playing the field.</li>
+                                    <li>The game is divided into nine innings. Each inning is split into the "top of the
+                                        inning" and the "bottom of the inning", giving both teams the chance to bat and
+                                        defend during each half of the inning. Should the two teams be tied at the end
+                                        of the nine innings, the teams will play extra innings until one of them wins.
+                                        The ninth inning can be cut short if the home team is winning and that the
+                                        visitors were unable to gain a lead in the first half of that final inning.</li>
+                                    <li>There are four bases: first, second, third, and home, and they make up a
+                                        baseball diamond. There is also an outfield, split into left, center, and right
+                                        field, that is positioned behind the baseball diamond.</li>
+                                    <li>The nine fielding positions are: pitcher, catcher, first baseman, second
+                                        baseman, shortstop, third baseman, right field, center field, and left field.
+                                        These all work together on defense to prevent the batting team from scoring
+                                        runs.</li>
+                                    <li>The batting team will bat until they have three "outs". A batter can strikeout
+                                        if they miss three good pitches from the pitcher. If a fielder catches a ball
+                                        before it hits the ground, the batter that hit it will be considered out. If a
+                                        runner is tagged with a ball without being on base, they are out. If a base
+                                        runner passes another out of order, they are out. If a runner runs without
+                                        tagging up (or touching the base they started on) after a hit ball has been
+                                        caught, and a fielder tags the base with the ball in their hand, they are out.
+                                        If a fielder tags a base where a runner is forced to run to before the runner
+                                        gets there, the runner is out.</li>
+                                    <li>The Pitcher throws the ball into the batter's "strike zone", which is between
+                                        the batter's armpits and knees in height, and covers homeplate in length and
+                                        width. A pitcher is allowed three balls (outside pitches), and a batter must be
+                                        able to get a hit without getting three strikes. A fourth ball pitched will give
+                                        the batter a free walk to first base, and a third strike will cause the batter
+                                        to be out. A strike is a good pitch that was not hit by the batter. A batter can
+                                        also hit a foul, which is a ball hit too far to the left or right of the
+                                        baseball diamond, and thus out of bounds. Fielders can catch a foul ball to get
+                                        a batter out. If uncaught, batters can hit as many fouls as possible without
+                                        getting out. </li>
+                                </ul>
+                            </div>
+                            <div id="scoringBBlock" class="B_rule">
+                                <h2 class="content has-text-white">Scoring</h2>
+                                <ul>
+                                    <li>Instead of points, we talk about "runs" in baseball.</li>
+                                    <li>A field goal in football is worth 3-points.</li>
+                                    <li>After a touchdown is scored the offense is given the option to score more:</li>
+                                    <li>Kicking through the uprights results in 1-point.</li>
+                                    <li>Advancing into the end zone again results in 2-points.</li>
+                                    <li>There are two circumstances that the defense can score:</li>
+                                    <li>Tackling an offensive player in their own end zone which results in a safety and
+                                        2-points</li>
+                                    <li>A defensive player catching a ball thrown by an offensive player or picking up a
+                                        ball dropped by an offensive player results in a turnover. If the defensive
+                                        player runs it into the endzone the result is a touchdown.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-</div>    
-</div>  
-</div>
-</div>
-</div>
-<!-- Tennis Section Starts Here -->
-<div id="outerTennisContainer">
-    <div class= "content" id="sportsHeader">
-    <h1 class= "content has-text-white">Tennis</h1>
+        <!-- Football Section Starts Here -->
+        <div id="outerFootballContainer" class="descriptions">
+            <div class="content sportsHeader">
+                <h1 class="content has-text-white">American Football</h1>
+            </div>
+            <div class="container is-align-item-center" id="F_innerContainer">
+                <div class="columns">
+                    <div class="column">
+                        <button id="goalsFButton" class="button is-dark"> Goals </button>
+                        <button id="basicsFButton" class="button is-dark"> Basics </button>
+                        <button id="scoringFButton" class="button is-dark"> Scoring </button>
+                    </div>
+                    <div class="column is-11" id="F_displayContainer">
+                        <div class="content is-justify-content-center">
+                            <div id="goalsFBlock" class="F_rule">
+                                <h2 class="content has-text-white"> Goal </h2>
+                                <p>The goal of American football is to do the following:</p>
+                                <ul>
+                                    <li>Move the ball towards the opposition's end zone and ultimately into their end
+                                        zone which results in a touchdown.</li>
+                                    <li>Advancing the ball into the end zone by running or throwing the ball downfield
+                                        results in a touchdown.</li>
+                                    <li>Kicking the ball through the uprights set up in the end zone results in a field
+                                        goal.</li>
+                                    <li>The team that scored more points at the end of four quarters wins the game.</li>
+                                </ul>
+                            </div>
+                            <div id="basicsFBlock" class="F_rule">
+                                <h2 class="content has-text-white">Basics</h2>
+                                <p>These are the basics of American Football:</p>
+                                <ul>
+                                    <li>Each team is divided into two groups: Offense or Defense with 11 players on each
+                                        side of the ball.</li>
+                                    <li>The game is divided into four quarters with a break after two quarters known as
+                                        half-time. If the game is tied at the end of four quarters there is an overtime
+                                        period equal to one quarter. The game ends when someone from either team scores
+                                        a touchdown. If the offense scores a field goal in overtime, the opposing team
+                                        is given one chance to score or they lose.</li>
+                                    <li>The Offense is tasked with advancing the ball downfield toward the end zone by
+                                        running the ball or throwing the ball to a teammate. Play ends when the player
+                                        holding the ball is tackled.</li>
+                                    <li>The Defense is tasked with stopping the offensive player from advancing by
+                                        tackling them.</li>
+                                    <li>Downs are the most fundamental part of NFL play. The offense has four downs to
+                                        advance the ball 10 yards or the opposing offense takes over automatically.
+                                        Advancing 10 yards earns the reset the number of downs to one.</li>
+                                    <li>The Offense can also end their possession by either attempting a field goal or
+                                        kicking the ball to the other team in what is known as Punting.</li>
+                                </ul>
+                            </div>
+                            <div id="scoringFBlock" class="F_rule">
+                                <h2 class="content has-text-white">Scoring</h2>
+                                <ul>
+                                    <li>A touchdown in football is worth 6-points.</li>
+                                    <li>A field goal in football is worth 3-points.</li>
+                                    <li>After a touchdown is scored the offense is given the option to score more:</li>
+                                    <li>Kicking through the uprights results in 1-point.</li>
+                                    <li>Advancing into the end zone again results in 2-points.</li>
+                                    <li>There are two circumstances that the defense can score:</li>
+                                    <li>Tackling an offensive player in their own end zone which results in a safety and
+                                        2-points</li>
+                                    <li>A defensive player catching a ball thrown by an offensive player or picking up a
+                                        ball dropped by an offensive player results in a turnover. If the defensive
+                                        player runs it into the endzone the result is a touchdown.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tennis Section Starts Here -->
+        <div id="outerTennisContainer" class="descriptions">
+            <div class="content sportsHeader">
+                <h1 class="content has-text-white">Tennis</h1>
+            </div>
+            <div class="container is-align-item-center" id="T_innerContainer">
+                <div class="columns">
+                    <div class="column">
+                        <button id="goalsTbutton" class="button is-dark"> Goals </button>
+                        <button id="basicsTbutton" class="button is-dark"> Basics </button>
+                        <button id="scoringTButton" class="button is-dark"> Scoring </button>
+                    </div>
+                    <div class="column is-11" id="displayContainer">
+                        <div class="content is-justify-content-center">
+                            <div id="goalsTblock" class="T_rule">
+                                <h2 class="content has-text-white"> Goal </h2>
+                                <p class="content has-text-white">The goal of Tennis is to do the following:</p>
+                                <ul class="content has-text-white">
+                                    <li>The game of tennis played on a rectangular court with a net running across the
+                                        center.</li>
+                                    <li>The aim is to hit the ball over the net, landing the ball within the margins of
+                                        the court and in a way that results in your opponent being unable to return the
+                                        ball.</li>
+                                    <li>You win a point every time your opponent is unable to return the ball within the
+                                        court.</li>
+                                </ul>
+                            </div>
+                            <div id="basicsTblock" class="T_rule">
+                                <h2 class="content has-text-white">Basics</h2>
+                                <p class="content has-text-white">These are the basics of Tennis:</p>
+                                <ul class="content has-text-white">
+                                    <li>Tennis is a sport that involves 2 or 4 players, 2 against 2 or a double match.
+                                    </li>
+                                    <li>The tennis court is divided into 2 halves by a net 0.914 meters high in the
+                                        center and 1.07 meters high on the ends.</li>
+                                    <li>The tennis court can be clay, grass, concrete or synthetic material, outdoors or
+                                        indoors.</li>
+                                    <li>The game starts with a coin toss to determine which player must serve first and
+                                        which side they want to serve from.</li>
+                                    <li>The server must then serve each point from alternative sides on the baseline.
+                                    </li>
+                                    <li>At no point must the server's feet move in front of the baseline on the court
+                                        prior to hitting their serve. If the server clips the net but the ball goes in
+                                        the service area still then 'let' is called and they get to take that serve
+                                        again without penalty.</li>
+                                    <li>Let' is often called when a point has been interrupted in some way. If the ball
+                                        hits the net and fails to go in the service area then out is called and they
+                                        lose that serve.</li>
+                                    <li>The receiver may stand where they wish upon receipt of the serve. If the ball is
+                                        struck without the serve bouncing then the server will receive the point. Once a
+                                        serve has been made the amount of shots between the players can be unlimited.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="scoringTblock" class="T_rule">
+                                <h2 class="content has-text-white">Scoring</h2>
+                                <ul class="content has-text-white">
+                                    <li>The point is won by hitting the ball so the opponent fails to return it in the
+                                        scoring areas. Points are awarded in scores of 15, 30 and 40. 15 represents 1
+                                        point, 30 = 2 and 40 = 3.</li>
+                                    <li>You need 4 points to win a game. If a game lands on 40-40 it's known as deuce.
+                                    </li>
+                                    <li>From deuce a player needs to win 2 consecutive points to win the game. After
+                                        winning one point from deuce the player is on advantage.</li>
+                                    <li> If the player wins the next point they win the game, if they lose it goes back
+                                        to deuce.To win the set a player must win 6 games by 2 or more.</li>
+                                    <li>The opening set will go to a tie break if it ends up 6-6 where players play
+                                        first to 7 points. </li>
+                                    <li>The final set will not have a tie break and requires players to win by two games
+                                        with no limits.</li>
+                                    <li>If a player touches the net, distracts his opponent or impedes in any way then
+                                        they automatically lose the point.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Golf Section Starts here -->
+        <div id="outerGolfContainer" class="descriptions">
+            <div class="content sportsHeader">
+                <h1 class="content has-text-white">Golf</h1>
+            </div>
+            <div class="container is-align-item-center" id="G_innerContainer">
+                <div class="columns">
+                    <div class="column">
+                        <button id="goalsGbutton" class="button is-dark"> Goals </button>
+                        <button id="basicsGbutton" class="button is-dark"> Basics </button>
+                        <button id="scoringGbutton" class="button is-dark"> Scoring </button>
+                    </div>
+                    <div class="column is-11" id="displayContainer">
+                        <div class="content is-justify-content-center">
+                            <div id="goalsGblock" class="G_rule">
+                                <h2 class="content has-text-white"> Goal </h2>
+                                <p class="content has-text-white">The goal of Golf is to do the following:</p>
+                                <ul class="content has-text-white">
+                                    <li>The Game of Golf consists in playing a ball from the teeing ground into the hole
+                                        by a stroke or successive strokes in accordance with the rules.</li>
+                                    <li>That's pretty easy, however, playing a ball means playing one ball.</li>
+                                </ul>
+                            </div>
+                            <div id="basicsGblock" class="G_rule">
+                                <h2 class="content has-text-white">Basics</h2>
+                                <p class="content has-text-white">These are the basics of Tennis:</p>
+                                <ul class="content has-text-white">
+                                    <li>You're not supposed to substitute another during the play of a hole.</li>
+                                    <li>If you have any questions you can't answer during that hole, play a second ball,
+                                        scoring that one as well, until you can come into the clubhouse and ask the
+                                        correct ruling on that hole.</li>
+                                    <li>A stroke is a forward movement of the club made with the intention of striking
+                                        the ball. Intention is the key word here.</li>
+                                    <li>If you voluntarily stop your forward stroke halfway down, it's not a stroke,
+                                        because your intention died.</li>
+                                    <li>If you go through with the swing it's a stroke, even if you miss the ball.</li>
+                                    <li>There is no penalty if a ball falls or is nudged off a tee before the forward
+                                        stroke begins. Also you can't push, scrape or "spoon" the ball.</li>
+                                    <li> There has to be a back swing, no matter how short, and a forward swing.</li>
+                                    <li>There are two kinds of hazards. They are water hazards and a bunker. Water
+                                        hazards can be a lake, pond, river, stream or whatever that lies in your path to
+                                        the green and are marked by red lines or stakes. You have to hit your ball over
+                                        it. If you don't do that and your ball drowns, you must drop a ball keeping that
+                                        point between the hole and where you drop the ball.</li>
+                                    <li>The other hazard is a bunker or the sand trap. You don't have to drop out of it
+                                        and take a penalty, but you have to play out of it. The basic rule here is that,
+                                        as in a water hazard, you can't touch the sand with your club before you make
+                                        the stroke.</li>
+                                    <li>Out of bounds areas are usually defined by white stakes, sometimes by a line on
+                                        the ground and sometimes by a fence or wall. The entire ball must lie out of
+                                        bounds.</li>
+                                </ul>
+                            </div>
+                            <div id="scoringGblock" class="G_rule">
+                                <h2 class="content has-text-white">Scoring</h2>
+                                <ul class="content has-text-white">
+                                    <li>Each time you swing at your golf ball, that's a stroke. Keep a count of thach
+                                        stroke you've made on each hole to get your score for that particular hole.</li>
+                                    <li>Part of the etiquette is to be absolutely quiet while any other player wants to
+                                        make his shot. </li>
+                                    <li>Knowing these rules and the proper etiquette will help you save strokes and make
+                                        the game much more enjoyable for both you and your playing partners.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="container is-align-item-center" id="innerContainer">
-    <div class="columns">
-      <div class="column" id="sideBar">
-        <button id="goalsTbutton" class="button is-dark"> Goals </button>
-        <button id="basicsTbutton" class="button is-dark"> Basics </button>
-        <button id="scoringTButton" class="button is-dark"> Scoring </button>
-      </div>
-    <div class="column is-11" class="box" id="displayContainer">
-      <div class="content is-justify-content-center">
-            <div class="content is-justify-content-center" id="goalsTblock">
-            <h2 class= "content has-text-white"> Goal </h2>
-        <p class= "content has-text-white">The goal of Tennis is to do the following:</p>
-        <ul class= "content has-text-white">
-            <li>The game of tennis played on a rectangular court with a net running across the center.</li>
-            <li>The aim is to hit the ball over the net, landing the ball within the margins of the court and in a way that results in your opponent being unable to return the ball.</li>
-            <li>You win a point every time your opponent is unable to return the ball within the court.</li>
-        </ul>
-        </div>
-        <div id="basicsTblock">
-            <h2 class="content has-text-white">Basics</h2>
-            <p class= "content has-text-white">These are the basics of Tennis:</p>
-            <ul class= "content has-text-white">
-                <li>Tennis is a sport that involves 2 or 4 players, 2 against 2 or a double match.</li>
-                <li>The tennis court is divided into 2 halves by a net 0.914 meters high in the center and 1.07 meters high on the ends.</li>
-                <li>The tennis court can be clay, grass, concrete or synthetic material, outdoors or indoors.</li>
-                <li>The game starts with a coin toss to determine which player must serve first and which side they want to serve from.</li>
-                <li>The server must then serve each point from alternative sides on the baseline.</li>
-                <li>At no point must the server's feet move in front of the baseline on the court prior to hitting their serve. If the server clips the net but the ball goes in the service area still then 'let' is called and they get to take that serve again without penalty.</li>
-                <li>Let' is often called when a point has been interrupted in some way. If the ball hits the net and fails to go in the service area then out is called and they lose that serve.</li>
-                <li>The receiver may stand where they wish upon receipt of the serve. If the ball is struck without the serve bouncing then the server will receive the point. Once a serve has been made the amount of shots between the players can be unlimited.</li>
-            </ul>
-            </div>
-            <div id="scoringTblock">
-            <h2 class="content has-text-white">Scoring</h2>
-            <ul class="content has-text-white">
-                <li>The point is won by hitting the ball so the opponent fails to return it in the scoring areas. Points are awarded in scores of 15, 30 and 40. 15 represents 1 point, 30 = 2 and 40 = 3.</li>
-                <li>You need 4 points to win a game. If a game lands on 40-40 it's known as deuce.</li>
-                <li>From deuce a player needs to win 2 consecutive points to win the game. After winning one point from deuce the  player is on advantage.</li>
-                <li> If the player wins the next point they win the game, if they lose it goes back to deuce.To win the set a player must win 6 games by 2 or more.</li>
-                <li>The opening set will go to a tie break if it ends up 6-6 where players play first to 7 points. </li>
-                <li>The final set will not have a tie break and requires players to win by two games with no limits.</li>
-                <li>If a player touches the net, distracts his opponent or impedes in any way then they automatically lose the point.</li>
-            </ul>
-            </div>
-        </div>
-</div>    
-</div>  
-</div>
-<table id="Players" style=" width: 100%; border: 1px solid black; display: none;border-collapse: collapse; text-align: left; font-size: larger;  background-color: white; color: black;">
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-    <th>Birth Date</th>
-    <th>Birth Place</th>
-    <th>Birth Country</th>
-    <th>Nationality</th>
-    <th>Height</th>
-    <th>Weight</th>
-    <th>Photo</th>
-  </tr>
-</table>   
-</div>
-</div>
-<br/>    
-<!-- Golf Section Starts here -->
-<div id="outerGolfContainer">
-    <div class= "content" id="sportsHeader">
-    <h1 class= "content has-text-white">Golf</h1>
-    </div>
-    <div class="container is-align-item-center" id="innerContainer">
-    <div class="columns">
-      <div class="column" id="sideBar">
-        <button id="goalsGbutton" class="button is-dark"> Goals </button>
-        <button id="basicsGbutton" class="button is-dark"> Basics </button>
-        <button id="scoringGbutton" class="button is-dark"> Scoring </button>
-      </div>
-    <div class="column is-11" class="box" id="displayContainer">
-      <div class="content is-justify-content-center">
-            <div class="content is-justify-content-center" id="goalsGblock">
-            <h2 class= "content has-text-white"> Goal </h2>
-        <p class= "content has-text-white">The goal of Golf is to do the following:</p>
-        <ul class= "content has-text-white">
-            <li>The Game of Golf consists in playing a ball from the teeing ground into the hole by a stroke or successive strokes in accordance with the rules.</li>
-            <li>That's pretty easy, however, playing a ball means playing one ball.</li>
-        </ul>
-        </div>
-        <div id="basicsGblock">
-            <h2 class="content has-text-white">Basics</h2>
-            <p class= "content has-text-white">These are the basics of Tennis:</p>
-            <ul class= "content has-text-white">
-                <li>You're not supposed to substitute another during the play of a hole.</li>
-                <li>If you have any questions you can't answer during that hole, play a second ball, scoring that one as well, until you can come into the clubhouse and ask the correct ruling on that hole.</li>
-                <li>A stroke is a forward movement of the club made with the intention of striking the ball. Intention is the key word here.</li>
-                <li>If you voluntarily stop your forward stroke halfway down, it's not a stroke, because your intention died.</li>
-                <li>If you go through with the swing it's a stroke, even if you miss the ball.</li>
-                <li>There is no penalty if a ball falls or is nudged off a tee before the forward stroke begins. Also you can't push, scrape or "spoon" the ball.</li>
-                <li> There has to be a back swing, no matter how short, and a forward swing.</li>
-                <li>There are two kinds of hazards. They are water hazards and a bunker. Water hazards  can be a lake, pond, river, stream or whatever that lies in your path to the green and are marked by red lines or stakes. You have to hit your ball over it. If you don't do that and your ball drowns, you must drop a ball keeping that point between the hole and where you drop the ball.</li>
-                <li>The other hazard is a bunker or the sand trap. You don't have to drop out of it and take a penalty, but you have to play out of it. The basic rule here is that, as in a water hazard, you can't touch the sand with your club before you make the stroke.</li>
-                <li>Out of bounds areas are usually defined by white stakes, sometimes by a line on the ground and sometimes by a fence or wall. The entire ball must lie out of bounds.</li>
-            </ul>
-            </div>
-            <div id="scoringGblock">
-            <h2 class="content has-text-white">Scoring</h2>
-            <ul class="content has-text-white">
-                <li>Each time you swing at your golf ball, that's a stroke. Keep a count of thach stroke you've made on each hole to get your score for that particular hole.</li>
-                <li>Part of the etiquette is to be absolutely quiet while any other player wants to make his shot. </li>
-                <li>Knowing these rules and the proper etiquette will help you save strokes and make the game much more enjoyable for both you and your playing partners.</li>
-            </ul>
-            </div>
-        </div>
-</div>    
-</div>  
-</div>
-</div>
-</div>
+    <!-- Jose Section Ends Here -->
 
-<!-- Jose Section Ends Here -->
 
-        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="./assets/jscript/script.js"></script>
+    <script src="./assets/jscript/script.js"></script>
 </body>
-</html> 
+
+</html>
