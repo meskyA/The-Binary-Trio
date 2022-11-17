@@ -59,7 +59,7 @@
   position: sticky;
   top: 0;
 } */
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-family:"Bungee", sans-serif;
 }
 
@@ -224,4 +224,4 @@ th, td {
 
 @keyframes fadeEffect {
   from {opacity: 0;}
-  to {opacity: 1;}
+  to {opacity: 1;} */

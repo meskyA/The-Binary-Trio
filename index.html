@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <title>Auto Referee</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -84,7 +85,6 @@
         <div class="content">
             <label for="Schedules">American Football Schedules:</label>
             <input type="date" id="SchedulesDate" name="Schedulesday">
-            <div id="messagediv"></div>
         </div>
         <div class="container is-align-item-center">
             <div class="columns">
@@ -102,7 +102,7 @@
                 <div class="column is-11">
                     <table id="Playsers" class="resultTable">
                         <tr>
-                            <th colspan="7"><span class="Headerspan"><h2>Team Members of </h2></span><span class="Headerspan" id="nameofteammembers"></span></th>
+                            <th colspan="7"><h2>Name of Team Members</h2></th>
                     </tr>
                         <tr>
                             <th>ID</th>
