@@ -15,18 +15,18 @@
 };
 
 
-function GetSchedules(ScheduleDate) {
-	var url = 'https://americanfootballapi.p.rapidapi.com/api/american-football/matches/' + ScheduleDate
-	GetApiRespond(url, options, ShowScheduledGames);
+function getSchedules(scheduleDate) {
+	var url = 'https://americanfootballapi.p.rapidapi.com/api/american-football/matches/' + scheduleDate
+	getApiRespond(url, options, showScheduledGames);
 
 }
 
-function GetTeamMembers(TeamID) {
+function getTeamMembers(TeamID) {
 	var url = 'https://americanfootballapi.p.rapidapi.com/api/american-football/team/' + TeamID + '/players';
-	GetApiRespond(url, options, ShowTeamPlaysers);
+	getApiRespond(url, options, showTeamPlaysers);
 	
 }
-function GetApiRespond(url, options, CallBack) {
+function getApiRespond(url, options, CallBack) {
 
 	fetch(url, options)
 		.then(response => response.text())
@@ -50,7 +50,7 @@ function GetApiRespond(url, options, CallBack) {
 
 }
 
-function ShowScheduledGames(response) {
+function showScheduledGames(response) {
 	var ScheduleTable = document.getElementById('TeamSchedules');
 
 
@@ -89,11 +89,11 @@ function ShowScheduledGames(response) {
 
 
 			if (attribute === "awayTeam") {
-				CreateAndAppendColumnToRow("<a href='javascript:GetTeamMembers(" + Team[attribute].id + ");'>" + Team[attribute].name + "</a>", tr)
+				CreateAndAppendColumnToRow("<a href='javascript:getTeamMembers(" + Team[attribute].id + ");'>" + Team[attribute].name + "</a>", tr)
 
 			}
 			else if (attribute === "homeTeam") {
-				CreateAndAppendColumnToRow("<a href='javascript:GetTeamMembers(" + Team[attribute].id + ");'>" + Team[attribute].name + "</a>", tr);
+				CreateAndAppendColumnToRow("<a href='javascript:getTeamMembers(" + Team[attribute].id + ");'>" + Team[attribute].name + "</a>", tr);
 			}
 			else {
 				CreateAndAppendColumnToRow(Team[attribute], tr);
@@ -105,7 +105,7 @@ function ShowScheduledGames(response) {
 }
 var PlaysersTable = document.getElementById('Playsers');
 
-function ShowTeamPlaysers(response) {
+function showTeamPlaysers(response) {
 
 	var PlayerAttributs = ["id", "name", "shortName", "dateOfBirthTimestamp", "shirtNumber", "height", "country", "team"];
 
@@ -196,7 +196,7 @@ $("#SchedulesDate").change(function () {
 	var scheduelddate = this.value.split('-');
 	var formatedDate = scheduelddate[2] + '/' + scheduelddate[1] + '/' + scheduelddate[0]
 
-	GetSchedules(formatedDate)
+	getSchedules(formatedDate)
 });
 // This is the section that controls the buttons
 $("#baseballButton").click(function () {
