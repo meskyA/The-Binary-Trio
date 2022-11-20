@@ -26,7 +26,6 @@ body, nav, .navbar{
     border-style: solid;
 }
 
-/* DO NOT CONSOLIDATE THE CODE BELOW OR IT BREAKS THE TOGGLE SCRIPT */
 #goalsBBlock,#goalsFBlock, #goalsTblock, #goalsGblock {
   display: block;
   color: white;
@@ -50,7 +49,7 @@ body, nav, .navbar{
   text-align: center;
   color: white;
 }
-/* DO NOT CONSOLIDATE THE CODE ABOVE OR IT BREAKS THE TOGGLE SCRIPT */
+
 
 .header{
   font-family: 'Bungee Shade', cursive;
