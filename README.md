@@ -20,3 +20,7 @@ Each section of sports' information has buttons on the left hand side named Goal
 - CSS
 - JavaScript
 - API
+
+## Link
+
+- [Repo-link](https://github.com/meskyA/The-Binary-Trio)
