@@ -12,7 +12,10 @@ The header has the title and a brief description of the page. It also has a list
 The gallery is an array of tiles that will display a sport's information or hide it when clicked on (this is done with a toggle function). 
 
 ![sports_description](./assets/images/Golf-scoring.png)
-Each section of sports' information has buttons on the left hand side named Goals, Basics, and Scoring, referring to each section of information for each sport. These buttons also toggle the sections in question, and so each section will appear or disappear depending on their toggle status.  
+Each section of sports' information has buttons on the left hand side named Goals, Basics, and Scoring, referring to each section of information for each sport. These buttons also toggle the sections in question, and so each section will appear or disappear depending on their toggle status. 
+
+![Teams_schedule](./assets/images/Teams.png)
+This section displays teams' game schedules and team players' information. User can choose to view between home teams and visitor teams informations. 
 
 ## Technologies
 
