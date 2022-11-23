@@ -27,3 +27,4 @@ This section displays teams' game schedules and team players' information. User 
 ## Link
 
 - [Repo-link](https://github.com/meskyA/The-Binary-Trio)
+- [Deployed-Link](https://meskya.github.io/The-Binary-Trio/)
